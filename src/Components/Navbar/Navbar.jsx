@@ -16,7 +16,6 @@ const Navbar = () => {
                             <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                             <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
                             <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Contact</NavLink></li>
-
                         </ul>
                     </div >
                     <div className='flex items-center'>

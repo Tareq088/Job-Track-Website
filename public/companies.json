@@ -1,0 +1,183 @@
+[
+    {
+      "id": "01",
+      "name": "Grameenphone Ltd.",
+      "logo": "https://i.ibb.co.com/Lzfm8dKy/grameenphone-bridging-the-digital-divide-through-upskilling-1000x700.jpg",
+      "bannerImage": "https://example.com/banners/grameenphone.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.grameenphone.com",
+      "industry": "Telecommunications"
+    },
+    {
+      "id": "02",
+      "name": "Robi Axiata Ltd.",
+      "logo": "https://i.ibb.co.com/67gG2FgS/robi.png",
+      "bannerImage": "https://example.com/banners/robi.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.robi.com.bd",
+      "industry": "Telecommunications"
+    },
+    {
+      "id": "03",
+      "name": "Banglalink Digital Communications Ltd.",
+      "logo": "https://i.ibb.co.com/xS52CrHN/BL-new-Logo-30072020-vertical.jpg",
+      "bannerImage": "https://example.com/banners/banglalink.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.banglalink.net",
+      "industry": "Telecommunications"
+    },
+    {
+      "id": "04",
+      "name": "Bashundhara Group",
+      "logo": "https://i.ibb.co.com/k63Mf0tX/bashundhara-group-logo-png-seeklogo-433144.png",
+      "bannerImage": "https://example.com/banners/bashundhara.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.bashundharagroup.com",
+      "industry": "Conglomerate"
+    },
+    {
+      "id": "05",
+      "name": "Square Pharmaceuticals Ltd.",
+      "logo": "https://i.ibb.co.com/DfPtQ3zF/square-images.png",
+      "bannerImage": "https://example.com/banners/square_pharma.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.squarepharma.com.bd",
+      "industry": "Pharmaceuticals"
+    },
+    {
+      "id": "06",
+      "name": "ACI Limited",
+      "logo": "https://i.ibb.co.com/Rd0RrY3/aci-images.jpg",
+      "bannerImage": "https://example.com/banners/aci.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.aci-bd.com",
+      "industry": "Conglomerate"
+    },
+    {
+      "id": "07",
+      "name": "BRAC Bank Limited",
+      "logo": "https://i.ibb.co.com/Cp7hcP4X/brac-bank-images.jpg",
+      "bannerImage": "https://example.com/banners/brac_bank.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.bracbank.com",
+      "industry": "Banking"
+    },
+    {
+      "id": "08",
+      "name": "City Bank Limited",
+      "logo": "https://i.ibb.co.com/9HG1Zs2L/city-bank-download.png",
+      "bannerImage": "https://example.com/banners/city_bank.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.thecitybank.com",
+      "industry": "Banking"
+    },
+    {
+      "id": "09",
+      "name": "Dutch-Bangla Bank Limited",
+      "logo": "https://i.ibb.co.com/RTR1nTfb/dutch-bangla-images.jpg",
+      "bannerImage": "https://example.com/banners/dutch_bangla_bank.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.dutchbanglabank.com",
+      "industry": "Banking"
+    },
+    {
+      "id": "10",
+      "name": "IFAD Group",
+      "logo": "https://i.ibb.co.com/MycRPPMB/ifad-group1651118707056.jpg",
+      "bannerImage": "https://example.com/banners/ifad_group.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.ifadgroup.com",
+      "industry": "Conglomerate"
+    },
+    {
+      "id": "11",
+      "name": "Beximco Pharmaceuticals Ltd.",
+      "logo": "https://example.com/logos/beximco_pharma.png",
+      "bannerImage": "https://example.com/banners/beximco_pharma.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.beximcopharma.com",
+      "industry": "Pharmaceuticals"
+    },
+    {
+      "id": "12",
+      "name": "LankaBangla Finance Ltd.",
+      "logo": "https://example.com/logos/lankabangla.png",
+      "bannerImage": "https://example.com/banners/lankabangla.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.lankabangla.com",
+      "industry": "Financial Services"
+    },
+    {
+      "id": "13",
+      "name": "Walton Group",
+      "logo": "https://example.com/logos/walton.png",
+      "bannerImage": "https://example.com/banners/walton.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.waltonbd.com",
+      "industry": "Electronics"
+    },
+    {
+      "id": "14",
+      "name": "PRAN-RFL Group",
+      "logo": "https://example.com/logos/pran_rfl.png",
+      "bannerImage": "https://example.com/banners/pran_rfl.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.pranrflgroup.com",
+      "industry": "Conglomerate"
+    },
+    {
+      "id": "15",
+      "name": "Unilever Bangladesh Ltd.",
+      "logo": "https://example.com/logos/unilever_bd.png",
+      "bannerImage": "https://example.com/banners/unilever_bd.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.unilever.com.bd",
+      "industry": "Consumer Goods"
+    },
+    {
+      "id": "16",
+      "name": "Nestlé Bangladesh Ltd.",
+      "logo": "https://example.com/logos/nestle_bd.png",
+      "bannerImage": "https://example.com/banners/nestle_bd.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.nestle.com.bd",
+      "industry": "Food & Beverage"
+    },
+    {
+      "id": "17",
+      "name": "Titas Gas Transmission and Distribution Co. Ltd.",
+      "logo": "https://example.com/logos/titas_gas.png",
+      "bannerImage": "https://example.com/banners/titas_gas.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.titasgas.org.bd",
+      "industry": "Energy"
+    },
+    {
+      "id": "18",
+      "name": "Bangladesh Power Development Board (BPDB)",
+      "logo": "https://example.com/logos/bpdb.png",
+      "bannerImage": "https://example.com/banners/bpdb.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.bpdb.gov.bd",
+      "industry": "Energy"
+    },
+    {
+      "id": "19",
+      "name": "Bangladesh Petroleum Corporation (BPC)",
+      "logo": "https://example.com/logos/bpc.png",
+      "bannerImage": "https://example.com/banners/bpc.jpg",
+      "location": "Chattogram, Bangladesh",
+      "website": "https://www.bpc.gov.bd",
+      "industry": "Energy"
+    },
+    {
+      "id": "20",
+      "name": "Bangladesh Telecommunication Company Ltd. (BTCL)",
+      "logo": "https://example.com/logos/btcl.png",
+      "bannerImage": "https://example.com/banners/btcl.jpg",
+      "location": "Dhaka, Bangladesh",
+      "website": "https://www.btcl.gov.bd",
+      "industry": "Telecommunications"
+    }
+  ]
+  

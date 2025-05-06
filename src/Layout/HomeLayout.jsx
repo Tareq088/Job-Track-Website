@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import { Outlet } from 'react-router';
 import Hero from '../Components/Hero';
 import Footer from '../Components/Footer/Footer';
+import Companies from '../Components/Companies/Companies';
+import Loading from '../Pages/Loading/Loading';
 
 const HomeLayout = () => {
     return (
@@ -14,6 +16,12 @@ const HomeLayout = () => {
                 <Hero></Hero>
             </section>
             <main>
+                <section>
+                    <Suspense fallback={<Loading></Loading>}>
+                            <Companies></Companies>
+                    </Suspense>
+                    
+                </section>
                 <Outlet></Outlet>
             </main>
             
