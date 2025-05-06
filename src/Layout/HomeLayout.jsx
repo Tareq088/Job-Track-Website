@@ -9,14 +9,14 @@ import Loading from '../Pages/Loading/Loading';
 const HomeLayout = () => {
     return (
         <div>
-            <header className='w-11/12 mx-auto'>
+            <header className='bg-base-200 '>
                     <Navbar></Navbar>
             </header>
-            <section className='w-11/12 mx-auto'>
+            <section className=' bg-linear-to-r from-blue-200 to to-blue-50'>
                 <Hero></Hero>
             </section>
             <main>
-                <section>
+                <section className='bg-amber-50'>
                     <Suspense fallback={<Loading></Loading>}>
                             <Companies></Companies>
                     </Suspense>
@@ -25,7 +25,7 @@ const HomeLayout = () => {
                 <Outlet></Outlet>
             </main>
             
-            <footer className='w-11/12 mx-auto'>
+            <footer className='bg-red-50'>
                 <Footer></Footer>
             </footer>
         </div>

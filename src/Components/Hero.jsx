@@ -4,7 +4,7 @@ import heroImage from '../assets/hero.jpg'
 const Hero = () => {
     return (
         <div>
-            <div className="hero bg-linear-to-r from-blue-200 to to-blue-50">
+            <div className="hero w-11/12 mx-auto">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-10">
                     <img
                     src={heroImage}

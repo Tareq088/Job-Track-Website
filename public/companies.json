@@ -6,7 +6,39 @@
       "bannerImage": "https://example.com/banners/grameenphone.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.grameenphone.com",
-      "industry": "Telecommunications"
+      "about": "Grameenphone is the largest mobile network operator in Bangladesh, known for its wide coverage and reliable service. It's a subsidiary of Telenor Group, Norway.",
+      "headOfficeAddress": "GPHouse, Bashundhara, Baridhara, Dhaka-1229, Bangladesh",
+      "industry": "Telecommunications",
+      "jobs": [
+        {
+          "id": "job-001",
+          "title": "Frontend Developer",
+          "bannerImage": "https://example.com/jobs/frontend.jpg",
+          "location": "Dhaka",
+          "salary": "BDT 60,000 - 80,000",
+          "jobType": "Full-time",
+          "description": "Develop UI components and maintain frontend infrastructure.",
+          "requirements": [
+            "Strong HTML, CSS, JavaScript skills",
+            "React.js or Vue.js experience",
+            "Responsive design expertise"
+          ]
+        },
+        {
+          "id": "job-002",
+          "title": "Backend Engineer",
+          "bannerImage": "https://example.com/jobs/backend.jpg",
+          "location": "Dhaka",
+          "salary": "BDT 80,000 - 100,000",
+          "jobType": "Full-time",
+          "description": "Build and manage scalable backend services.",
+          "requirements": [
+            "Experience with Node.js or Django",
+            "Database management skills",
+            "API development knowledge"
+          ]
+        }
+      ]
     },
     {
       "id": "02",
@@ -15,7 +47,25 @@
       "bannerImage": "https://example.com/banners/robi.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.robi.com.bd",
-      "industry": "Telecommunications"
+      "about": "Robi is the second-largest mobile network in Bangladesh. It's a joint venture between Axiata Group (Malaysia) and Bharti Airtel (India).",
+      "headOfficeAddress": "The Forum, 187, 188/B, Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka-1208, Bangladesh",
+      "industry": "Telecommunications",
+      "jobs": [
+      {
+        "id": "job-003",
+        "title": "Data Analyst",
+        "bannerImage": "https://example.com/jobs/data_analyst.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 70,000 - 90,000",
+        "jobType": "Full-time",
+        "description": "Analyze business data and provide insights.",
+        "requirements": [
+          "Proficient in SQL and Excel",
+          "Knowledge of BI tools (Power BI/Tableau)",
+          "Strong analytical mindset"
+        ]
+      }
+    ]
     },
     {
       "id": "03",
@@ -24,7 +74,39 @@
       "bannerImage": "https://example.com/banners/banglalink.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.banglalink.net",
-      "industry": "Telecommunications"
+      "about": "Banglalink is a major telecom operator in Bangladesh, known for its youth-focused branding and digital transformation efforts.",
+      "headOfficeAddress": "Tiger's Den, House 4 (South West), Bir Uttam Mir Shawkat Sarak, Gulshan-1, Dhaka-1212, Bangladesh",
+      "industry": "Telecommunications",
+      "jobs": [
+      {
+        "id": "job-004",
+        "title": "Network Engineer",
+        "bannerImage": "https://example.com/jobs/network_engineer.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 75,000 - 95,000",
+        "jobType": "Full-time",
+        "description": "Ensure efficient network operations.",
+        "requirements": [
+          "Knowledge of network protocols",
+          "Cisco/Juniper certification preferred",
+          "Problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-005",
+        "title": "DevOps Engineer",
+        "bannerImage": "https://example.com/jobs/devops.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 100,000 - 120,000",
+        "jobType": "Full-time",
+        "description": "Manage deployment pipelines and infrastructure.",
+        "requirements": [
+          "CI/CD tools knowledge",
+          "Experience with cloud services (AWS, Azure)",
+          "Scripting in Bash/Python"
+        ]
+      }
+    ]
     },
     {
       "id": "04",
@@ -33,7 +115,25 @@
       "bannerImage": "https://example.com/banners/bashundhara.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.bashundharagroup.com",
-      "industry": "Conglomerate"
+      "about": "One of the largest industrial groups in Bangladesh, involved in real estate, cement, paper, food, and media.",
+      "headOfficeAddress": "Plot# 125/A, Block# A, Bashundhara R/A, Road No - 2, Baridhara, Dhaka-1229, Bangladesh",
+      "industry": "Conglomerate",
+      "jobs": [
+        {
+          "id": "job-006",
+          "title": "Civil Engineer",
+          "bannerImage": "https://example.com/jobs/civil_engineer.jpg",
+          "location": "Chattogram",
+          "salary": "BDT 65,000 - 85,000",
+          "jobType": "Full-time",
+          "description": "Manage construction sites and planning.",
+          "requirements": [
+            "BSc in Civil Engineering",
+            "AutoCAD and structural analysis skills",
+            "Field experience"
+          ]
+        }
+      ]
     },
     {
       "id": "05",
@@ -42,7 +142,25 @@
       "bannerImage": "https://example.com/banners/square_pharma.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.squarepharma.com.bd",
-      "industry": "Pharmaceuticals"
+         "about": "Square Pharma is a leading pharmaceutical manufacturer in Bangladesh, known for its export reach and product quality.",
+      "headOfficeAddress": "SQUARE Centre, 48, Mohakhali C/A, Dhaka-1212, Bangladesh",
+      "industry": "Pharmaceuticals",
+      "jobs": [
+      {
+        "id": "job-007",
+        "title": "Quality Assurance Officer",
+        "bannerImage": "https://example.com/jobs/qa.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 60,000 - 75,000",
+        "jobType": "Full-time",
+        "description": "Maintain quality checks across production.",
+        "requirements": [
+          "BSc/MSc in Chemistry/Pharmacy",
+          "Knowledge of GMP/GLP",
+          "Attention to detail"
+        ]
+      }
+    ]
     },
     {
       "id": "06",
@@ -51,7 +169,25 @@
       "bannerImage": "https://example.com/banners/aci.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.aci-bd.com",
-      "industry": "Conglomerate"
+      "about": "ACI operates in agriculture, pharmaceuticals, and consumer brands, providing a diverse range of essential products across the country.",
+      "headOfficeAddress": "ACI Centre, 245, Tejgaon Industrial Area, Dhaka-1208, Bangladesh",
+      "industry": "Conglomerate",
+      "jobs": [
+        {
+          "id": "job-008",
+          "title": "Marketing Executive",
+          "bannerImage": "https://example.com/jobs/marketing.jpg",
+          "location": "Dhaka",
+          "salary": "BDT 45,000 - 60,000",
+          "jobType": "Full-time",
+          "description": "Support marketing campaigns and brand promotion.",
+          "requirements": [
+            "BBA/MBA in Marketing",
+            "Strong communication skills",
+            "Creative thinking"
+          ]
+        }
+      ]
     },
     {
       "id": "07",
@@ -60,7 +196,25 @@
       "bannerImage": "https://example.com/banners/brac_bank.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.bracbank.com",
-      "industry": "Banking"
+       "about": "A leading private commercial bank in Bangladesh, founded by BRAC, focused on SME and retail banking.",
+      "headOfficeAddress": "Anik Tower, 220/B, Gulshan-Tejgaon Link Road, Tejgaon I/A, Dhaka-1208, Bangladesh",
+      "industry": "Banking",
+      "jobs": [
+      {
+        "id": "job-009",
+        "title": "Banking Officer",
+        "bannerImage": "https://example.com/jobs/bank_officer.jpg",
+        "location": "Sylhet",
+        "salary": "BDT 50,000 - 70,000",
+        "jobType": "Full-time",
+        "description": "Assist in daily banking operations and customer service.",
+        "requirements": [
+          "Graduate in Business/Finance",
+          "Good interpersonal skills",
+          "Experience with banking software"
+        ]
+      }
+    ]
     },
     {
       "id": "08",
@@ -69,7 +223,25 @@
       "bannerImage": "https://example.com/banners/city_bank.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.thecitybank.com",
-      "industry": "Banking"
+      "about": "One of the oldest private commercial banks in Bangladesh, known for innovation and partnerships (e.g., with American Express).",
+      "headOfficeAddress": "City Bank Center, Plot: SE(D)-3, 28, Gulshan Avenue, Gulshan-1, Dhaka-1212, Bangladesh",
+      "industry": "Banking",
+      "jobs": [
+        {
+          "id": "job-010",
+          "title": "IT Support Specialist",
+          "bannerImage": "https://example.com/jobs/it_support.jpg",
+          "location": "Dhaka",
+          "salary": "BDT 55,000 - 70,000",
+          "jobType": "Full-time",
+          "description": "Maintain internal IT systems and provide support.",
+          "requirements": [
+            "Experience with Windows & Linux systems",
+            "Knowledge of network troubleshooting",
+            "Customer service orientation"
+          ]
+        }
+      ]
     },
     {
       "id": "09",
@@ -78,7 +250,25 @@
       "bannerImage": "https://example.com/banners/dutch_bangla_bank.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.dutchbanglabank.com",
-      "industry": "Banking"
+       "about": "A pioneer in tech-driven banking in Bangladesh, famous for launching the country’s first mobile banking service (Rocket).",
+      "headOfficeAddress": "47, Motijheel Commercial Area, Dhaka-1000, Bangladesh",
+      "industry": "Banking",
+      "jobs": [
+        {
+          "id": "job-011",
+          "title": "Software Developer",
+          "bannerImage": "https://example.com/jobs/software_dev.jpg",
+          "location": "Dhaka",
+          "salary": "BDT 80,000 - 100,000",
+          "jobType": "Full-time",
+          "description": "Develop internal banking applications.",
+          "requirements": [
+            "Java or .NET experience",
+            "Database design and SQL skills",
+            "Version control (Git)"
+          ]
+        }
+      ]
     },
     {
       "id": "10",
@@ -87,97 +277,108 @@
       "bannerImage": "https://example.com/banners/ifad_group.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.ifadgroup.com",
-      "industry": "Conglomerate"
+        "about": "IFAD operates in automotive, food, and agro-business sectors, including distribution of Ashok Leyland vehicles.",
+      "headOfficeAddress": "Plot 7 (new), Tejgaon Industrial Area, Dhaka-1208, Bangladesh",
+      "industry": "Conglomerate",
+      "jobs": [
+      {
+        "id": "job-012",
+        "title": "Supply Chain Officer",
+        "bannerImage": "https://example.com/jobs/supply_chain.jpg",
+        "location": "Gazipur",
+        "salary": "BDT 50,000 - 70,000",
+        "jobType": "Full-time",
+        "description": "Oversee procurement and logistics.",
+        "requirements": [
+          "BBA in SCM/Logistics",
+          "ERP experience",
+          "Negotiation skills"
+        ]
+      }
+    ]
     },
     {
       "id": "11",
       "name": "Beximco Pharmaceuticals Ltd.",
-      "logo": "https://example.com/logos/beximco_pharma.png",
+      "logo": "https://i.ibb.co.com/Zzj4tymx/beximco.jpg",
       "bannerImage": "https://example.com/banners/beximco_pharma.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.beximcopharma.com",
-      "industry": "Pharmaceuticals"
+      "about": "BEXIMCO is Bangladesh's largest private sector conglomerate, operating across diverse industries including textiles, pharmaceuticals, ceramics, real estate, ICT, and energy. Founded in the 1970s, BEXIMCO has a significant presence both domestically and internationally.",
+      "headOfficeAddress": "17, Dhanmondi R/A, Road No. 2, Dhaka-1205, Bangladesh",
+      "industry": "Pharmaceuticals",
+      "jobs": [
+      {
+        "id": "job-013",
+        "title": "Embedded Systems Engineer",
+        "bannerImage": "https://example.com/jobs/embedded_engineer.jpg",
+        "location": "Gazipur",
+        "salary": "BDT 80,000 - 100,000",
+        "jobType": "Full-time",
+        "description": "Design and develop firmware for electronic devices.",
+        "requirements": [
+          "Proficiency in C/C++",
+          "Experience with microcontrollers",
+          "Knowledge of electronics hardware"
+        ]
+      },
+      {
+        "id": "job-014",
+        "title": "Product Designer",
+        "bannerImage": "https://example.com/jobs/product_designer.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 60,000 - 85,000",
+        "jobType": "Full-time",
+        "description": "Create designs for consumer electronics and appliances.",
+        "requirements": [
+          "Proficiency in CAD tools",
+          "Creativity and design thinking",
+          "Portfolio of product designs"
+        ]
+      }
+    ]
     },
     {
       "id": "12",
       "name": "LankaBangla Finance Ltd.",
-      "logo": "https://example.com/logos/lankabangla.png",
+      "logo": "https://i.ibb.co.com/FbBQK1mR/lankbangla.jpg",
       "bannerImage": "https://example.com/banners/lankabangla.jpg",
       "location": "Dhaka, Bangladesh",
       "website": "https://www.lankabangla.com",
-      "industry": "Financial Services"
-    },
-    {
-      "id": "13",
-      "name": "Walton Group",
-      "logo": "https://example.com/logos/walton.png",
-      "bannerImage": "https://example.com/banners/walton.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.waltonbd.com",
-      "industry": "Electronics"
-    },
-    {
-      "id": "14",
-      "name": "PRAN-RFL Group",
-      "logo": "https://example.com/logos/pran_rfl.png",
-      "bannerImage": "https://example.com/banners/pran_rfl.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.pranrflgroup.com",
-      "industry": "Conglomerate"
-    },
-    {
-      "id": "15",
-      "name": "Unilever Bangladesh Ltd.",
-      "logo": "https://example.com/logos/unilever_bd.png",
-      "bannerImage": "https://example.com/banners/unilever_bd.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.unilever.com.bd",
-      "industry": "Consumer Goods"
-    },
-    {
-      "id": "16",
-      "name": "Nestlé Bangladesh Ltd.",
-      "logo": "https://example.com/logos/nestle_bd.png",
-      "bannerImage": "https://example.com/banners/nestle_bd.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.nestle.com.bd",
-      "industry": "Food & Beverage"
-    },
-    {
-      "id": "17",
-      "name": "Titas Gas Transmission and Distribution Co. Ltd.",
-      "logo": "https://example.com/logos/titas_gas.png",
-      "bannerImage": "https://example.com/banners/titas_gas.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.titasgas.org.bd",
-      "industry": "Energy"
-    },
-    {
-      "id": "18",
-      "name": "Bangladesh Power Development Board (BPDB)",
-      "logo": "https://example.com/logos/bpdb.png",
-      "bannerImage": "https://example.com/banners/bpdb.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.bpdb.gov.bd",
-      "industry": "Energy"
-    },
-    {
-      "id": "19",
-      "name": "Bangladesh Petroleum Corporation (BPC)",
-      "logo": "https://example.com/logos/bpc.png",
-      "bannerImage": "https://example.com/banners/bpc.jpg",
-      "location": "Chattogram, Bangladesh",
-      "website": "https://www.bpc.gov.bd",
-      "industry": "Energy"
-    },
-    {
-      "id": "20",
-      "name": "Bangladesh Telecommunication Company Ltd. (BTCL)",
-      "logo": "https://example.com/logos/btcl.png",
-      "bannerImage": "https://example.com/banners/btcl.jpg",
-      "location": "Dhaka, Bangladesh",
-      "website": "https://www.btcl.gov.bd",
-      "industry": "Telecommunications"
+      "about": "LankaBangla Finance PLC is a leading non-banking financial institution in Bangladesh, offering a wide range of financial services including corporate finance, retail finance, SME finance, and capital market operations. Established in 1997, it has a strong presence in the country's financial sector.",
+      "headOfficeAddress": "Safura Tower (Level-11), 20 Kemal Ataturk Avenue, Banani, Dhaka-1213, Bangladesh",
+      "industry": "Financial Services",
+      "jobs": [
+      {
+        "id": "job-015",
+        "title": "Mobile App Developer",
+        "bannerImage": "https://example.com/jobs/mobile_dev.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 90,000 - 120,000",
+        "jobType": "Full-time",
+        "description": "Develop and maintain bKash mobile apps for Android and iOS.",
+        "requirements": [
+          "Proficient in Flutter or native Android/iOS",
+          "Experience with mobile app deployment",
+          "Understanding of secure coding practices"
+        ]
+      },
+      {
+        "id": "job-016",
+        "title": "Cybersecurity Analyst",
+        "bannerImage": "https://example.com/jobs/cybersecurity.jpg",
+        "location": "Dhaka",
+        "salary": "BDT 100,000 - 130,000",
+        "jobType": "Full-time",
+        "description": "Ensure security of financial systems and customer data.",
+        "requirements": [
+          "Familiarity with SIEM tools",
+          "Incident response experience",
+          "Certifications like CEH or CISSP"
+        ]
+      }
+    ]
     }
   ]
+
   

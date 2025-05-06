@@ -7,8 +7,8 @@ import { SiNetlify } from 'react-icons/si';
 
 const Footer = () => {
     return (
-        <div className='flex flex-col items-center bg-gray-400 py-5'>
-            <img src={logoImg} alt="Logo png" />
+        <div className='flex flex-col items-center  py-5 w-11/12 mx-auto'>
+            <img className='w-20 h-20 rounded-full' src={logoImg} alt="Logo png" />
             <div className="navbar-center :flex">
                     <ul className="menu menu-horizontal px-1">
                         <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>

@@ -4,7 +4,7 @@ import logoImg from '../../assets/logo.jpg'
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-200">
+            <div className="navbar w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         </ul>
                     </div >
                     <div className='flex items-center'>
-                    <img className='hidden sm:block sm: w-15 md:w-20 lg:w-35' src={logoImg}></img>
+                    <img className='hidden sm:block sm:w-10 sm:h-10 md:w-15 md:h-15  rounded-full' src={logoImg}></img>
                     <Link to='/' className="text-xs md:text-base lg:text-xl text-green-900">Job Hunt</Link>
                     </div>
                 </div>
