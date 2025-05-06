@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Link, NavLink } from 'react-router';
 import logoImg from '../../assets/logo.jpg'
+import { AuthContext } from '../../Contexts/AuthContext';
 const Navbar = () => {
+    const{user} = use(AuthContext);
+    console.log(user)
     return (
         <div>
             <div className="navbar w-11/12 mx-auto">

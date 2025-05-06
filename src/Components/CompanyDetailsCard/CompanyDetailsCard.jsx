@@ -8,7 +8,7 @@ const CompanyDetailsCard = ({company}) => {
    
     return (
         <div className='bg-gray-100'>
-            <div className='w-11/12 mx-auto p-5'>
+            <div className='w-11/12 mx-auto p-5 pb-10 bg-white rounded-lg'>
                 <div className='flex flex-col md:flex-row gap-5 items-center justify-center mb-5'>
                     <div className='w-[60%] md:w-[30%]'>
                         <img className='w-100 md:w-60' src={bannerImage} alt="" />
