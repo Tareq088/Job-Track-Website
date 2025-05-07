@@ -1,10 +1,23 @@
 import React, { use } from 'react';
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink, useNavigation } from 'react-router';
 import logoImg from '../../assets/logo.jpg'
 import { AuthContext } from '../../Contexts/AuthContext';
+import { toast } from 'react-toastify';
+
 const Navbar = () => {
-    const{user} = use(AuthContext);
-    console.log(user)
+    const{user, logOut} = use(AuthContext);
+    const navigation = useNavigation();
+    console.log(navigation)
+    // console.log(user);
+    const handleLogOut =() =>{
+        logOut()
+            .then(()=>{
+                toast.success("Logged Out")
+            })
+            .catch( error =>{
+                toast.error("error:", error)
+            })
+    }
     return (
         <div>
             <div className="navbar w-11/12 mx-auto">
@@ -18,7 +31,7 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                             <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
-                            <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Contact</NavLink></li>
+                            <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Profile</NavLink></li>
                         </ul>
                     </div >
                     <div className='flex items-center'>
@@ -30,13 +43,21 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                         <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
-                        <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Contact</NavLink></li>
+                        <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Profile</NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <Link to='/' className="mr-2">Profile</Link>
-                    <Link to='/auth/login' className="btn font-medium mr-2 text-xs md:text-base  p-1 sm:p-2">Log In</Link>
-                    <Link to='/auth/register' className="btn font-medium text-xs md:text-base  p-1 sm:p-2">Register</Link>
+                    {
+                        user?
+                        <button onClick={handleLogOut} 
+                        className="btn font-medium text-xs md:text-base  p-1 sm:p-2">Log Out</button>
+                        :
+                        <div>
+                        <Link to='/auth/login' className="btn font-medium mr-2 text-xs md:text-base  p-1 sm:p-2">Log In</Link>
+                        <Link to='/auth/register' className="btn font-medium text-xs md:text-base  p-1 sm:p-2">Register</Link>
+                    </div>
+                    }
                 </div>
             </div>
         </div>

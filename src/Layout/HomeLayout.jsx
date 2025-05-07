@@ -6,11 +6,15 @@ import Footer from '../Components/Footer/Footer';
 import Companies from '../Components/Companies/Companies';
 import Loading from '../Pages/Loading/Loading';
 
+
 const HomeLayout = () => {
     return (
         <div>
             <header className='bg-base-200 '>
-                    <Navbar></Navbar>
+                
+                            <Navbar></Navbar>
+                
+                    
             </header>
             <section className=' bg-linear-to-r from-blue-200 to to-blue-50'>
                 <Hero></Hero>

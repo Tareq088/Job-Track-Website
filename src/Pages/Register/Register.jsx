@@ -3,7 +3,7 @@ import { Link, Navigate, useNavigate } from 'react-router';
 import { AuthContext } from '../../Contexts/AuthContext';
 
 const Register = () => {
-    const {createUser} = use(AuthContext);
+    const {createUser,setUser} = use(AuthContext);
     const navigate = useNavigate();
     const [errorMessage, setErrorMessage] = useState(" ");
     const [success, setSuccess] = useState(false);
@@ -30,20 +30,18 @@ const Register = () => {
                     //create user with firebase
         createUser(email, password) 
                 .then(result =>{
-                    console.log(result.user);
+                    // console.log(result.user);
+                    setUser(result.user)
                     setSuccess(true);
                     navigate('/home');
                 })
                 .catch( (error) =>{
                     console.log(error.message);
-                })
-            
+                })       
     }
-    
-    
     return (
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto my-20">
-            <h2 className='text-center font-bold text-lg md:text-3xl'>Sign Up</h2>
+            <h2 className='text-center font-bold text-lg md:text-3xl pt-4'>Sign Up</h2>
             <form onSubmit={handleRegister} className="card-body">
             <fieldset className="fieldset">
                             {/* Name */}

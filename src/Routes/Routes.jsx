@@ -10,6 +10,7 @@ import Loading from "../Pages/Loading/Loading";
 import Login from "../Pages/Login/Login";
 import AuthLayout from '../Layout/AutLayout'
 import Register from './../Pages/Register/Register';
+import PrivateRoute from "../Contexts/PrivateRoute";
 
 
 export const router = createBrowserRouter([
@@ -46,10 +47,10 @@ export const router = createBrowserRouter([
     path:"/company-details/:id",
     hydrateFallbackElement:<Loading></Loading>,
     loader: ()=> fetch("../companies.json"),
-    Component:CompanyDetails
+    element: <PrivateRoute>  <CompanyDetails/>   </PrivateRoute>
   },
   {
-    path:'*/',
+    path:'*',
     Component: ErrorPage,
   }
 ])

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CompanyDetailsCard = ({company}) => {
-    const {name,bannerImage,website,headOfficeAddress} = company;
+    const {name,bannerImage,website,headOfficeAddress} = company || {};
     // const {title,jobType,salary, description, requirements,website} = company.jobs
     const manyJobs = company.jobs;
     // console.log(jobs)
