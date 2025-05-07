@@ -2,6 +2,7 @@ import React, { use, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../Contexts/AuthContext';
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
     const {logInUser, googleSignIn, setEmailForPasswordReset} = use(AuthContext);
@@ -10,9 +11,7 @@ const Login = () => {
     const location = useLocation();
     // console.log(location)
     const emailRef = useRef("");
-   
 
-   
             //log in er jonno
     const handleLogin = (e) =>{
         e.preventDefault();
@@ -47,20 +46,12 @@ const Login = () => {
         const email = emailRef.current.value;
         setEmailForPasswordReset(email);
     }
-//   const handleForgetPassword =()=>{
-//     const email = emailRef.current.value;
-   
-//     resetPassword(email)
-//         .then( ()=>{
-//             toast.info("An message is sent to: ", email)
-//         })
-//         .catch((error)=>{
-//             console.log(error.message)
-//         })
-//   }
- 
+
     return (
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto my-20">
+            <Helmet>
+                <title>Job Search | Login</title>
+            </Helmet>
             <h2 className='text-center font-bold text-lg md:text-3xl pt-4'>Login Your Account</h2>
             <form onSubmit={handleLogin} className="card-body">
             <fieldset className="fieldset">

@@ -1,11 +1,13 @@
 import React, { use } from 'react';
-import { Link, NavLink, useNavigation } from 'react-router';
+import { Link, Navigate, NavLink, useNavigate, useNavigation } from 'react-router';
 import logoImg from '../../assets/logo.jpg'
 import { AuthContext } from '../../Contexts/AuthContext';
 import { toast } from 'react-toastify';
+import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
     const{user, logOut} = use(AuthContext);
+    const navigate = useNavigate();
     // console.log(user);
     const handleLogOut =() =>{
         logOut()
@@ -16,6 +18,7 @@ const Navbar = () => {
                 toast.error("error:", error)
             })
     }
+
     return (
         <div>
             <div className="navbar w-11/12 mx-auto">
@@ -45,7 +48,25 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to='/' className="mr-2">Profile</Link>
+                    <div className="mr-2">
+                    {
+                        user?
+                        <Link to='/profile'>
+                            <div className='w-12 p-0.5 bg-black rounded-full'>
+                                <img className='rounded-full' src={user?.photoURL}></img>
+                            </div>
+                        </Link>
+
+                        :
+                        <div className='cursor-pointer' onClick={()=>navigate('/auth/login')}>
+                            <FaUserCircle  size={35}></FaUserCircle>
+                        </div>
+                           
+                            
+                    
+                        
+                    }
+                    </div>
                     {
                         user?
                         <button onClick={handleLogOut} 

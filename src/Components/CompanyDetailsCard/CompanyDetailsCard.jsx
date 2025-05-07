@@ -1,22 +1,28 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const CompanyDetailsCard = ({company}) => {
-    const {name,bannerImage,website,headOfficeAddress} = company || {};
+    const {name,bannerImage,website,headOfficeAddress, about, industry} = company || {};
     // const {title,jobType,salary, description, requirements,website} = company.jobs
     const manyJobs = company.jobs;
     // console.log(jobs)
    
     return (
         <div className='bg-gray-100'>
+            <Helmet>
+                <title>Job Search | {name}</title>
+            </Helmet>
             <div className='w-11/12 mx-auto p-5 pb-10 bg-white rounded-lg'>
                 <div className='flex flex-col md:flex-row gap-5 items-center justify-center mb-5'>
                     <div className='w-[60%] md:w-[30%]'>
                         <img className='w-100 md:w-60' src={bannerImage} alt="" />
                     </div>
-                    <div className='space-y-2 text-center md:text-start'>
-                        <h2 className='font-bold text-3xl md:text-5xl text-shadow-slate-500'>{name}</h2>
-                        <p className='text-sm md:text-lg'>Address: {headOfficeAddress}</p>
-                        <a href="" className='text-green-600'>{website}</a>
+                    <div className='space-y-3 text-center md:text-start'>
+                        <h2 className='font-bold text-3xl md:text-5xl text-amber-900'>{name}</h2>
+                        <p className='text-sm md:text-base text-slate-400'>{about}</p>
+                        <p className='text-sm md:text-base text-gray-500'>Industry Type: <span className='text-black'>{industry}</span></p>
+                        <p className='text-xs md:text-sm text-gray-500'>Address: <span className='text-black'>{headOfficeAddress}</span></p>
+                        <a href="" className='text-green-600 hover:text-red-500'>{website}</a>
                     </div>
                     
                 </div>

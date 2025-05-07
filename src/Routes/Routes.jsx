@@ -12,6 +12,10 @@ import AuthLayout from '../Layout/AutLayout'
 import Register from './../Pages/Register/Register';
 import PrivateRoute from "../Contexts/PrivateRoute";
 import ResetPassword from "../Pages/ResetPassword/ResetPassword";
+import Profile from "../Pages/Profile/Profile";
+import ProfileLayout from "../Layout/ProfileLayout";
+import ProfileEdit from "../Pages/ProfileEdit/ProfileEdit";
+
 
 
 export const router = createBrowserRouter([
@@ -53,6 +57,20 @@ export const router = createBrowserRouter([
     hydrateFallbackElement:<Loading></Loading>,
     loader: ()=> fetch("../companies.json"),
     element: <PrivateRoute>  <CompanyDetails/>   </PrivateRoute>
+  },
+  {
+    path:'/profile',
+    element:<PrivateRoute><ProfileLayout></ProfileLayout></PrivateRoute>,
+    children:[
+      {
+        path:'/profile',
+        Component: Profile
+      },
+      {
+        path:'/profile/edit',
+        Component:ProfileEdit
+      }
+    ]
   },
   {
     path:'*',

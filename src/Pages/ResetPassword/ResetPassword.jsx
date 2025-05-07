@@ -1,6 +1,7 @@
 import React, { use } from 'react';
 import { AuthContext } from '../../Contexts/AuthContext';
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const ResetPassword = () => {
 
@@ -17,6 +18,9 @@ const ResetPassword = () => {
     }
     return (
         <div>
+            <Helmet>
+                <title>Job Search | Reset Password</title>
+            </Helmet>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto my-20">
             <h2 className='text-center font-bold text-lg md:text-3xl pt-4'>Reset Password</h2>
             <form className="card-body">

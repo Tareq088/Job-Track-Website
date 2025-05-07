@@ -1,9 +1,10 @@
 import React, { use, useState } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../Contexts/AuthContext';
+import { Helmet } from 'react-helmet-async';
 
 const Register = () => {
-    const {createUser,setUser} = use(AuthContext);
+    const {createUser,setUser,updateUser} = use(AuthContext);
     const navigate = useNavigate();
     const [errorMessage, setErrorMessage] = useState(" ");
     const [success, setSuccess] = useState(false);
@@ -30,13 +31,23 @@ const Register = () => {
         else{
             setErrorMessage("");
         }
+        const profile ={
+            displayName: name,
+            photoURL: photo
+        }
                     //create user with firebase
         createUser(email, password) 
                 .then(result =>{
                     // console.log(result.user);
-                    setUser(result.user)
-                    setSuccess(true);
-                    navigate(location.state ||"/home");
+                    // setUser(result.user)
+                    // setSuccess(true);
+                    // navigate(location.state ||"/home");
+                    updateUser(profile)
+                        .then(()=>{
+                            setUser({...result.user, ...profile})
+                            setSuccess(true);
+                            navigate(location.state ||"/home");
+                        })
                 })
                 .catch( (error) =>{
                     console.log(error.message);
@@ -44,6 +55,9 @@ const Register = () => {
     }
     return (
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto my-20">
+            <Helmet>
+                <title>Job Search | Register</title>
+            </Helmet>
             <h2 className='text-center font-bold text-lg md:text-3xl pt-4'>Sign Up</h2>
             <form onSubmit={handleRegister} className="card-body">
             <fieldset className="fieldset">
