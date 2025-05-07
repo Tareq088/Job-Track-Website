@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const CompanyCard = ({companies}) => {
-    console.log(companies)
+    // console.log(companies)
     // const {id,name,logo} = companies;
     // console.log(id,name)
     return (

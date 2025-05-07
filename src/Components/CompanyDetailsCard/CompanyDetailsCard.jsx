@@ -20,12 +20,12 @@ const CompanyDetailsCard = ({company}) => {
                     </div>
                     
                 </div>
-                <hr className='w-full bg-slate-50'/>
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
+                <hr className='w-full bg-slate-50 my-4'/>
+                <div className='grid grid-cols-1 gap-5 w-[50%] text-center mx-auto'>
                    {
                             //jobs prothome undefined thake tai tokhon map hbe na. tai ? diye optional chaining korlam
                             manyJobs?.map(job => 
-                            <div key={job.id} className='space-y-2'>
+                            <div key={job.id} className='space-y-2 p-10 shadow-md bg-base-200 rounded-2xl'>
                                     <h3 className='font-bold text-red-950 text-xl'>Job Title: {job.title}</h3>
                                     <p className='text-base'>Salary: {job.salary}</p>
                                     <p>job Type: {job.jobType}</p>
@@ -48,8 +48,6 @@ const CompanyDetailsCard = ({company}) => {
                                             </div>
                                         </div>
                                         </dialog>
-                                    
-                                    <hr className='w-full bg-slate-50'/>
                             </div>
                         )
                     }
