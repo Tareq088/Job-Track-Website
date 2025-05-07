@@ -1,5 +1,5 @@
 import React, { use, useState } from 'react';
-import { Link, Navigate, useNavigate } from 'react-router';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../Contexts/AuthContext';
 
 const Register = () => {
@@ -7,6 +7,9 @@ const Register = () => {
     const navigate = useNavigate();
     const [errorMessage, setErrorMessage] = useState(" ");
     const [success, setSuccess] = useState(false);
+    const location = useLocation();
+    console.log(location)
+
     const handleRegister =(e) =>{
         e.preventDefault();
         const form = e.target;
@@ -33,7 +36,7 @@ const Register = () => {
                     // console.log(result.user);
                     setUser(result.user)
                     setSuccess(true);
-                    navigate('/home');
+                    navigate(location.state ||"/home");
                 })
                 .catch( (error) =>{
                     console.log(error.message);
