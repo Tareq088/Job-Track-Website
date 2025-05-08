@@ -12,12 +12,15 @@ const Companies = () => {
     return (
         <div className='py-10 w-11/12 mx-auto'>
             <h2 className='text-lg md:text-xl lg:text-2xl text-center mb-5'>Featured Companies</h2>
-                <div className=''>
+            
+            <div className=''>
                     <CompanyCard 
                         key={companies.id}
                         companies={companies}
                     ></CompanyCard>
                 </div>
+                   
+              
  
           
             

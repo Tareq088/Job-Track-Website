@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { motion} from 'framer-motion';
 
 const CompanyDetailsCard = ({company}) => {
     const {name,bannerImage,website,headOfficeAddress, about, industry} = company || {};
@@ -18,7 +19,10 @@ const CompanyDetailsCard = ({company}) => {
                         <img className='w-100 md:w-60' src={bannerImage} alt="" />
                     </div>
                     <div className='space-y-3 text-center md:text-start'>
+                    <motion.div className='p-6' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} >
                         <h2 className='font-bold text-3xl md:text-5xl text-amber-900'>{name}</h2>
+                    </motion.div>
+                        
                         <p className='text-sm md:text-base text-slate-400'>{about}</p>
                         <p className='text-sm md:text-base text-gray-500'>Industry Type: <span className='text-black'>{industry}</span></p>
                         <p className='text-xs md:text-sm text-gray-500'>Address: <span className='text-black'>{headOfficeAddress}</span></p>
