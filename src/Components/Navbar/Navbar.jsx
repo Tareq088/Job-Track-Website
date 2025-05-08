@@ -1,9 +1,10 @@
 import React, { use } from 'react';
-import { Link, Navigate, NavLink, useNavigate, useNavigation } from 'react-router';
+import { Link, Navigate, NavLink, useNavigate } from 'react-router';
 import logoImg from '../../assets/logo.jpg'
 import { AuthContext } from '../../Contexts/AuthContext';
 import { toast } from 'react-toastify';
 import { FaUserCircle } from "react-icons/fa";
+import { motion} from 'framer-motion';
 
 const Navbar = () => {
     const{user, logOut} = use(AuthContext);
@@ -20,7 +21,11 @@ const Navbar = () => {
     }
 
     return (
+        
         <div>
+             <motion.div className='p-6' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} >
+                        Hello
+        </motion.div>
             <div className="navbar w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -36,11 +41,14 @@ const Navbar = () => {
                         </ul>
                     </div >
                     <div className='flex items-center'>
+                       
+                        
                     <img className='hidden sm:block sm:w-10 sm:h-10 md:w-15 md:h-15  rounded-full' src={logoImg}></img>
                     <Link to='/' className="text-xs md:text-base lg:text-xl text-green-900">Job Hunt</Link>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
+                   
                     <ul className="menu menu-horizontal px-1">
                         <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                         <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>

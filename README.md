@@ -1,12 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project Name is Assignment 09 Job Track
+Live URL: Tareq-job-search.surge.sh
 
-Currently, two official plugins are available:
+key Features: Here in this Project, You can easily get the info of update jobs available. And In companies description section you will get the company details idea and again you will get how many job available in that company. And You can enjoy this info after log in and registration. One interesting issue is that you can manage your CV easily here.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+NPM packages:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    "@tailwindcss/vite": "^4.1.3",
+    "firebase": "^11.6.1",
+    "framer-motion": "^12.10.4",
+    "motion": "^12.10.3",
+    "react": "^19.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.0.0",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.5.0",
+    "react-router": "^7.5.0",
+    "react-toastify": "^11.0.5",
+    "tailwindcss": "^4.1.3"

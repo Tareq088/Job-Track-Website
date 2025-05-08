@@ -11,6 +11,8 @@ import CreateCv from '../Components/CreateCv/CreateCv';
 import Faq from '../Components/Faq/Faq';
 
 
+
+
 const HomeLayout = () => {
     return (
         <div>
@@ -22,9 +24,12 @@ const HomeLayout = () => {
             </section>
             <main>
                 <section className='bg-amber-50'>
-                    <Suspense fallback={<Loading></Loading>}>
+              
+                <Suspense fallback={<Loading></Loading>}>
                             <Companies></Companies>
-                    </Suspense>                   
+                    </Suspense>   
+                                 
+         
                 </section>
                 <section className='bg-[#03438c]'>
                     <Features></Features>
