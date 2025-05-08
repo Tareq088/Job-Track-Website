@@ -6,6 +6,8 @@ import Footer from '../Components/Footer/Footer';
 import Companies from '../Components/Companies/Companies';
 import Loading from '../Pages/Loading/Loading';
 
+import Features from './../Components/Features/Features';
+
 
 const HomeLayout = () => {
     return (
@@ -20,8 +22,10 @@ const HomeLayout = () => {
                 <section className='bg-amber-50'>
                     <Suspense fallback={<Loading></Loading>}>
                             <Companies></Companies>
-                    </Suspense>
-                    
+                    </Suspense>                   
+                </section>
+                <section className='bg-[#03438c]'>
+                    <Features></Features>
                 </section>
                 <Outlet></Outlet>
             </main>
