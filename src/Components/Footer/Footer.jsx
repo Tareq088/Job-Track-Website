@@ -13,7 +13,7 @@ const Footer = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                         <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
-                        <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Contact</NavLink></li>
+                        <li className='text-lg'><NavLink to='/faqAll' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>FAQ</NavLink></li>
                     </ul>
             </div>
             <hr className='text-gray-50 border-dotted w-full my-3'/>

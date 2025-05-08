@@ -7,6 +7,8 @@ import Companies from '../Components/Companies/Companies';
 import Loading from '../Pages/Loading/Loading';
 
 import Features from './../Components/Features/Features';
+import CreateCv from '../Components/CreateCv/CreateCv';
+import Faq from '../Components/Faq/Faq';
 
 
 const HomeLayout = () => {
@@ -26,6 +28,14 @@ const HomeLayout = () => {
                 </section>
                 <section className='bg-[#03438c]'>
                     <Features></Features>
+                </section>
+                <section className='bg-base-300'>
+                        <CreateCv></CreateCv>
+                </section>
+                <section className='bg-base-200'>
+                    <Suspense fallback={<Loading></Loading>}>
+                        <Faq></Faq>
+                    </Suspense>
                 </section>
                 <Outlet></Outlet>
             </main>

@@ -32,7 +32,7 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                             <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
-                            <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Profile</NavLink></li>
+                            <li className='text-lg'><NavLink to='/faqAll' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>FAQ</NavLink></li>
                         </ul>
                     </div >
                     <div className='flex items-center'>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Home</NavLink></li>
                         <li className='text-lg'><NavLink to='/about' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>About</NavLink></li>
-                        <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>Profile</NavLink></li>
+                        <li className='text-lg'><NavLink to='/faqAll' className={({isActive})=> isActive ? 'underline text-red-600' : ''}>FAQ</NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

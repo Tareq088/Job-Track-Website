@@ -15,6 +15,8 @@ import ResetPassword from "../Pages/ResetPassword/ResetPassword";
 import Profile from "../Pages/Profile/Profile";
 import ProfileLayout from "../Layout/ProfileLayout";
 import ProfileEdit from "../Pages/ProfileEdit/ProfileEdit";
+import Cv from "../Pages/CV/Cv";
+import FaqAll from "../Pages/FaqAll/FaqAll";
 
 
 
@@ -33,6 +35,14 @@ export const router = createBrowserRouter([
         },
 
     ]
+  },
+  {
+    path:'/cv',
+    element:<PrivateRoute> <Cv></Cv> </PrivateRoute>
+  },
+  {
+    path:'/faqAll',
+    element:  <PrivateRoute> <FaqAll></FaqAll> </PrivateRoute>  
   },
   {
     path:'/auth',

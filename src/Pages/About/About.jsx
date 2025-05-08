@@ -7,7 +7,7 @@ const About = () => {
             <Helmet>
                 <title>Job Search | About</title>
             </Helmet>
-            about
+            
         </div>
     );
 };

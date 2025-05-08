@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Tell me about yourself.",
+      "answer": "I’m a [your profession] with [X years] of experience in [your industry/field]. I specialize in [your specialties], and I'm passionate about [something related to your field]. In my last role at [Company], I [mention key achievement]."
+    },
+    {
+      "id": 2,
+      "question": "What are your strengths?",
+      "answer": "My key strengths include problem-solving, effective communication, and the ability to adapt quickly. I also work well under pressure and enjoy working as part of a team."
+    },
+    {
+      "id": 3,
+      "question": "What are your weaknesses?",
+      "answer": "One area I'm working to improve is delegating tasks. I used to try to handle everything myself, but I've learned that trusting my team improves overall productivity and outcomes."
+    },
+    {
+      "id": 4,
+      "question": "Why do you want to work here?",
+      "answer": "I admire your company’s mission and values, especially your commitment to [specific area]. I believe my skills and experience align well with your goals and I’m excited about the opportunity to contribute."
+    },
+    {
+      "id": 5,
+      "question": "Why did you leave your last job?",
+      "answer": "I’m looking for new challenges and opportunities to grow professionally. While I appreciated my time at my last company, I felt it was time to move on to something more aligned with my career goals."
+    },
+    {
+      "id": 6,
+      "question": "Describe a difficult work situation and how you overcame it.",
+      "answer": "Once, we had a critical deadline and a key team member fell ill. I stepped in to redistribute the workload, coordinated closely with everyone, and ensured we met the deadline without compromising quality."
+    },
+    {
+      "id": 7,
+      "question": "Where do you see yourself in 5 years?",
+      "answer": "In five years, I hope to take on greater responsibilities, potentially in a leadership role, where I can contribute to strategic decisions and mentor junior colleagues."
+    },
+    {
+      "id": 8,
+      "question": "How do you handle stress and pressure?",
+      "answer": "I stay organized, prioritize tasks, and take short breaks to stay focused. I also communicate openly with my team to ensure we’re aligned and support each other under pressure."
+    },
+    {
+      "id": 9,
+      "question": "Do you prefer working independently or in a team?",
+      "answer": "I’m comfortable with both. I enjoy collaborating with others to achieve shared goals, but I also thrive when working independently on tasks that require focus and self-direction."
+    },
+    {
+      "id": 10,
+      "question": "Do you have any questions for us?",
+      "answer": "Yes, I’d like to know more about the team I’ll be working with and what success looks like in this role during the first six months."
+    }
+  ]
+  
