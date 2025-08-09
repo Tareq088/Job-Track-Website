@@ -1,7 +1,10 @@
 # React + Vite
 
 The project Name is Assignment 09 Job Track
-Live URL: Tareq-job-search.surge.sh
+Surge Live URL: Tareq-job-search.surge.sh
+
+Netlify Link: https://lovely-medovik-9a7026.netlify.app/
+
 
 key Features: Here in this Project, You can easily get the info of update jobs available. And In companies description section you will get the company details idea and again you will get how many job available in that company. And You can enjoy this info after log in and registration. One interesting issue is that you can manage your CV easily here.
 
